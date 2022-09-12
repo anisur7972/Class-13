@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.template{
+    text-align: center;
+}
+.template h1 {
+    background-color: yellow;
+    padding: 15px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+/* Font Awesome Icon Css Start  */
+ h3 {
+    background: bisque;
+    padding: 15px;
+    margin: 30px 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+ul{
+    margin-left: 50px;
+    list-style-type: none;
+}
+.one{
+    display: inline-block;
+    
+}
+.one li {
+    font-size: 25px;
+    color: skyblue;
+    background-color: rgb(43, 11, 224);
+    padding: 15px 50px;
+    border-radius: 50px 0 50px 0;
+}
+.one li::before {
+    content: '\f336';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+    color: orangered;
+    font-size: 25px;
+}
+.two{
+    display: inline-block;
+}
+.two li{
+    font-size: 25px;
+    color: yellow;
+    background-color: #15a15d;
+    padding: 15px 50px;
+    border-radius: 15px 30px 30px 15px;
+}
+.two li::after{
+    content: '\f2f7';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 20px;
+    color:rgb(44, 10, 196);
+    font-size: 25px;
+}
+.three{
+    display: inline-block;
+}
+.three li{
+    font-size: 25px;
+    color: rgb(193, 211, 235);
+    background-color: #5c11e9;
+    padding: 15px 50px;
+    border-radius: 20px 0 20px 0;
+}
+.three li::before{
+    content: '\f772';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+    color:rgb(250, 208, 21);
+    font-size: 25px;
+}
+/* Font Awesome Icon Css End  */
+
+/* Client Testimonial Css Start  */
+p.testimonial-one{
+    font-size: 30px;
+}
+.testimonial-one::before{
+content:'"' ;
+}
+.testimonial-one::after{
+    content:'"' ;
+}
+.testimonial-two{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.testimonial-two::before{
+    content: '\22';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+    color:rgb(250, 21, 90);
+    font-size: 35px;
+}
+.testimonial-two::after{
+    content: '\22';
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+    color:rgb(223, 21, 250);
+    font-size: 35px;
+}
+/* Client Testimonial Css End  */
+
+/* Liks Section Css Start  */
+.links{
+    background-color: rgb(13, 231, 195);
+}
+.links {
+    padding: 50px 0;
+    text-align: center;
+}
+.links-one{
+    display: inline-block;
+    margin-right: 15px;
+}
+.links-one a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: orange;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
+}
+.links-one a::before{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: green;
+    border-radius: 10px;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-one a:hover::before{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.links-two{
+    display: inline-block;
+    margin-right: 15px;
+}
+.links-two a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.links-two a::before{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-two a:hover::before{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.links-three{
+    display: inline-block;
+    margin-right: 15px;
+}
+.links-three a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: palevioletred;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.links-three a::before{
+    content: '';
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(248, 48, 22);
+    border-radius: 10px;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-three a:hover::before{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.links-four{
+    display: inline-block;
+    margin-right: 15px;
+}
+.links-four a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: orchid;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.links-four a::before{
+    content: '';
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(248, 48, 22);
+    border-radius: 10px;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-four a:hover::before{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.links-Five{
+    display: inline-block;
+    margin-right: 15px;
+}
+.links-Five a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: purple;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.links-Five a::before{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 48, 22);
+    border-radius: 10px 0 0 10px;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-Five a:hover::before{
+    width: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.links-Five a::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(247, 115, 97);
+    border-radius: 0 10px 10px 0;
+    z-index: -1;
+    opacity: o;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+.links-Five a:hover::after{
+    width: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+/* Liks Section Css End */
